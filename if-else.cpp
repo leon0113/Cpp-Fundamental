@@ -3,14 +3,14 @@ using namespace std;
 
 int main ()
 {
-    int package;
-    cin>>package;
+    int marks;
+    cin>>marks;
 
-    if(package > 10)
+    if(marks > 33)
     {
-        cout<<"Accepted";
+        cout<<"Passed";
     }
     else {
-        cout<<"Rejected";
+        cout<<"Failed";
     }
 }
