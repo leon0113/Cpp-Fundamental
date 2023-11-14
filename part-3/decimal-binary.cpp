@@ -13,7 +13,7 @@ int main()
         num = num / 2; // update num
         ans = rem * mul + ans;
         // update mul
-        mul = mul * 10;
+        mul *= 10;
     }
     cout << ans;
 }
