@@ -5,16 +5,16 @@ int main()
 {
     int ans = 0, mul = 1, num, mod;
 
-    cout << "Enter Binary number: ";
+    cout << "Enter Decimal number: ";
     cin >> num;
 
     while (num)
     {
-        mod = num % 10;
-        num /= 10;
+        mod = num % 8;
+        num /= 8;
         ans += mod * mul;
 
-        mul *= 2;
+        mul *= 10;
     }
-    cout << "Decimal equivalent: " << ans;
+    cout << "Octal equivalent: " << ans;
 }
