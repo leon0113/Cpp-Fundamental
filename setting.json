@@ -1,0 +1,88 @@
+{
+    "workbench.colorTheme": "Best Themes - Dark Phoenix",
+    "workbench.colorCustomizations": {
+      // "terminal.background" : "#01023f",  
+      "terminal.foreground": "#58ec14",
+    } ,
+   "terminal.integrated.fontSize": 24,
+   "terminal.integrated.fontWeight": "500",
+   "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontSize": 20,
+    "diffEditor.wordWrap": "on",
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'cascadia code',Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "expand",
+    "editor.find.cursorMoveOnType": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    // "editor.minimap.enabled": false,
+    // "editor.wordWrap": "on",
+    //!------------------------
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+          {
+              "scope": [
+               "entity.name.tag.js.jsx", 
+               "entity.name.tag.js.tsx", 
+               "entity.name.tag.js",
+               "entity.name.tag.ts",
+               "meta.tag.attributes.tsx"
+               ],
+               "settings": {
+               "foreground": "#4af528",
+               }
+          },
+      ]
+  },
+  //!---------------------------------
+  
+  
+    
+    "clang-format.executable": "/absolute/path/to/clang-format",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "editor.codeActionsOnSave": {
+  
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "rapidapi.terminalLink.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[scss]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "terminal.integrated.env.windows": {},
+    "workbench.iconTheme": "material-icon-theme",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "chatgpt.lang": "en",
+    "[cpp]": {
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "npm.keybindingsChangedWarningShown": true,
+    "symbols.hidesExplorerArrows": false
+  }
+  
+  
