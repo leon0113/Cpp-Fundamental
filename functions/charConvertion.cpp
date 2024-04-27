@@ -12,4 +12,4 @@ int main()
     cout << "Enter your number: ";
     cin >> num;
     cout << convert(num);
-}
+};
