@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-const char *primeOrNot(int n)
+string primeOrNot(int n)
 {
     if (n < 2)
         return "No";
